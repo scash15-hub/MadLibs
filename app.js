@@ -20,8 +20,18 @@
    - Name variables clearly so you remember what each one is for.
 */
 
-// let ________ = prompt("Ask the user for ________");
-// let ________ = prompt("Ask the user for ________");
+let name = prompt("Your Name");
+let number = prompt("Favorite Number");
+let animal = prompt("Spirit Animal");
+let friendsName = prompt("Best Friends Name");
+let color = prompt("Favorite Color");
+let food = prompt("Favorite Food");
+let state = prompt("Name a State");
+let feeling = prompt("What are You feeling");
+let about = prompt("Something to describe you");
+let weather = prompt("Weather Outside");
+let action = prompt("Action");
+// let ________ = prompt("");
 // (Add as many as your story needs)
 
 /* 2) BUILD YOUR STORY STRING
@@ -29,8 +39,8 @@
    - Insert variables with ${variableName} in your sentence.
    - Keep it fun! Make sure your story uses ALL the variables you collected.
 */
-
-// let story = `Write your story here using ${_____} and ${_____} etc.`;
+// ${number}
+let story = `<p>Last summer ${name}, ${friendsName} went on a s vacation with my s to a s beach resort. From morning till night, we were busy s and s. One day, we decided to explore a nearby s and ended up getting lost. Thankfully, we were rescued by a friendly s who showed us the way back to our resort. It turned out to be the most s adventure of our lives!</p>  `;
 
 /* 3) DISPLAY THE STORY ON THE PAGE
    - Select the element with id "madlib-output" using document.getElementById(...)
@@ -38,7 +48,7 @@
    - Optional: include simple <strong> or <em> tags inside your story string for emphasis.
 */
 
-// document.getElementById("madlib-output").innerHTML = /* your story variable */ ;
+document.getElementById("madlib-output").innerHTML = story ;
 
 /* 4) OPTIONAL POLISH
    - Add a title or intro line at the top of your story (still using the same innerHTML).
