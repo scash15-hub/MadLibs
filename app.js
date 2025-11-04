@@ -31,7 +31,15 @@ let feeling = prompt("What are You feeling");
 let about = prompt("Something to describe you");
 let weather = prompt("Weather Outside");
 let action = prompt("Action");
-// let ________ = prompt("");
+let pluralNoun = prompt("Plural Noun");
+let adjective = prompt("Adjective");
+let adjective1 = prompt("Adjective");
+let funny = prompt("Funny Name of a Plane");
+let verb = prompt("Verb");
+let adjective2 = prompt("Adjective");
+let verbing = prompt("Verb ending in -ing");
+
+
 // (Add as many as your story needs)
 
 /* 2) BUILD YOUR STORY STRING
@@ -40,7 +48,17 @@ let action = prompt("Action");
    - Keep it fun! Make sure your story uses ALL the variables you collected.
 */
 // ${number}
-let story = `<p>Last summer ${name}, ${friendsName} went on a s vacation with my s to a s beach resort. From morning till night, we were busy s and s. One day, we decided to explore a nearby s and ended up getting lost. Thankfully, we were rescued by a friendly s who showed us the way back to our resort. It turned out to be the most s adventure of our lives!</p>  `;
+let story = `<p>${name} and ${friendsName} decided to take a ${adjective} vacation to ${state}. You packed your ${pluralNoun}, stuffed in ${number} ${food}</p>
+
+<p>At the airport, everything seemed ${adjective1} — until your flight got delayed because someone’s ${animal} got stuck in the jet engine. When you finally boarded, the flight attendant smiled and said, “Welcome aboard ${funny}, have a ${adjective2} flight.”</p>
+
+<p>Halfway through the flight, the captain announced, “Uh-oh… we’ve hit a ${weather}!” The plane began to ${verb}, drinks started (verb ending in -ing) through the air, and a passenger screamed, “My (animal) just escaped!”</p>
+
+<p>You and (friend’s name) held on tight, yelling (funny exclamation) as lightning flashed brighter than a (celebrity name) on the red carpet. The turbulence got so wild that even the pilot’s (body part) started shaking.</p>
+
+<p>Finally, after what felt like (number) hours, the storm cleared, and everyone cheered like (plural noun) at a concert. You landed safely in (place) — a little dizzy, slightly sticky, but totally (adjective).</p>
+
+<p>You and your friend agreed: next time, maybe you’ll just take a (vehicle) instead.</p>`;
 
 /* 3) DISPLAY THE STORY ON THE PAGE
    - Select the element with id "madlib-output" using document.getElementById(...)
