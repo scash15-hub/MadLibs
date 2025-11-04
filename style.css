@@ -1,3 +1,7 @@
+body { 
+  background-image: url('vacation.jpeg'); 
+  background-size: cover;
+}
 /* Keep styles simple and readable for beginners */
 :root {
   --card-radius: 1rem;
