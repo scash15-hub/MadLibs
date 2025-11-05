@@ -20,7 +20,7 @@ let number1 = prompt("Lucky Number");
 let pluralNoun1 = prompt("Plural Noun");
 let carBrand = prompt("Car Brand");
 
-let story = `<p>${name} and ${friendsName} decided to take a ${adjective} vacation to ${state}. You packed your ${pluralNoun}, stuffed in ${number} ${food}</p>
+let story = `<p>${name} and ${friendsName} decided to take a ${adjective} vacation to ${state}. You packed your ${pluralNoun}, stuffed in ${number} ${food} containers.</p>
 
 <p>At the airport, everything seemed ${adjective1} — until your flight got delayed because someone’s ${animal} got stuck in the jet engine. When you finally boarded, the flight attendant smiled and said, “Welcome aboard ${funny}, have a ${adjective2} flight.”</p>
 
