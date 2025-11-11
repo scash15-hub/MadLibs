@@ -1,7 +1,8 @@
-body { 
-  background-image: url('vacation.jpeg'); 
+body {
+  background-image: url('vacation.jpeg');
   background-size: cover;
 }
+
 /* Keep styles simple and readable for beginners */
 :root {
   --card-radius: 1rem;
@@ -12,7 +13,26 @@ body {
 }
 
 #madlib-output {
-  min-height: 6rem; /* keeps the card from collapsing before story appears */
+  min-height: 6rem;
+  /* keeps the card from collapsing before story appears */
   line-height: 1.6;
   font-size: 1.05rem;
+}
+
+.title {
+  font-family: "cc-summer-fling-split", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.madlib {
+  font-family: "sharktooth", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  font-family: "cc-summer-fling", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
