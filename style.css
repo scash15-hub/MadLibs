@@ -1,6 +1,13 @@
 body {
   background-image: url('vacation.jpeg');
+  background-position: center center;
+  /* Centers the image */
+  background-repeat: no-repeat;
+  /* Prevents tiling */
   background-size: cover;
+
+  /* Scales to cover the entire area */
+  height: 100vh;
 }
 
 /* Keep styles simple and readable for beginners */
